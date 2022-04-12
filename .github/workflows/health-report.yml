@@ -21,3 +21,5 @@ jobs:
         with:
           username: ${{ secrets[matrix.username] }}
           password: ${{ secrets[matrix.password] }}
+    env:
+      NODE_ENV: development
